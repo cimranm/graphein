@@ -58,7 +58,7 @@ class InMemoryProteinGraphDataset(InMemoryDataset):
         pre_transform: Optional[Callable] = None,
         pre_filter: Optional[Callable] = None,
         num_cores: int = 16,
-        af_version: int = 2,
+        af_version: int = 4,
     ):
         """In Memory dataset for protein graphs.
 
